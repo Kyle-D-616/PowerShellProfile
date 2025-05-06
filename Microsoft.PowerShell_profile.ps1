@@ -1,6 +1,6 @@
-#font Cascadia Mono
-#oh-my-posh 
-oh-my-posh init pwsh --config "C:\Users\kdukes\AppData\Local\Programs\oh-my-posh\themes\1_shell.omp.json" | Invoke-Expression
+# font: Cascadia Mono
+# oh-my-posh with online theme
+oh-my-posh init pwsh --config "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/1_shell.omp.json" | Invoke-Expression
 
 # Remove default 'ls' alias so we can override it
 Remove-Item alias:ls -ErrorAction SilentlyContinue
